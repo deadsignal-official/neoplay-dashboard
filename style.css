@@ -1,1 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.menu {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.buttons button {
+  display: block;
+  margin: 15px auto;
+  padding: 15px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #00f0ff;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background: #00c0cc;
+}
