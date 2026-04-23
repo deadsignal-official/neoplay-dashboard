@@ -1,3 +1,3 @@
 function openPage(page) {
-  alert("Opening " + page + "...");
+  window.location.href = page + ".html";
 }
