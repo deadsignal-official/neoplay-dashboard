@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeoPlay - Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🎮 Games</h1>
+
+<div class="buttons">
+  <button onclick="launchGame('game1')">Start Demo Game</button>
+  <button onclick="goBack()">⬅ Back</button>
+</div>
+
+<script>
+function launchGame(game) {
+  alert("Launching " + game + "...");
+}
+
+function goBack() {
+  window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
